@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import type { ElementType, ComponentPropsWithoutRef } from "react";
 import {
   motion,
   useAnimationFrame,
@@ -10,7 +10,17 @@ import {
 import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
-export function Button({
+type ButtonProps<C extends ElementType> = {
+  as?: C;
+  borderRadius?: string;
+  children: React.ReactNode;
+  containerClassName?: string;
+  borderClassName?: string;
+  duration?: number;
+  className?: string;
+} & ComponentPropsWithoutRef<C>;
+
+export function Button<C extends ElementType = "button">({
   borderRadius = "1.75rem",
   children,
   as: Component = "button",
