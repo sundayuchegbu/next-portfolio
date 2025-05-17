@@ -10,15 +10,15 @@ import {
 import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
-type ButtonProps<C extends ElementType> = {
-  as?: C;
-  borderRadius?: string;
-  children: React.ReactNode;
-  containerClassName?: string;
-  borderClassName?: string;
-  duration?: number;
-  className?: string;
-} & ComponentPropsWithoutRef<C>;
+// type ButtonProps<C extends ElementType> = {
+//   as?: C;
+//   borderRadius?: string;
+//   children: React.ReactNode;
+//   containerClassName?: string;
+//   borderClassName?: string;
+//   duration?: number;
+//   className?: string;
+// } & ComponentPropsWithoutRef<C>;
 
 export function Button<C extends ElementType = "button">({
   borderRadius = "1.75rem",

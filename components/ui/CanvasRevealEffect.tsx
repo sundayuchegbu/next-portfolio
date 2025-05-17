@@ -186,7 +186,13 @@ const ShaderMaterial = ({ source, uniforms, maxFps = 60 }: ShaderProps) => {
   });
 
   const getUniforms = () => {
-    const preparedUniforms: Record<string, { value: any; type?: string }> = {};
+    const preparedUniforms: Record<
+      string,
+      {
+        value: number | number[] | THREE.Vector3[] | THREE.Vector2;
+        type?: string;
+      }
+    > = {};
 
     for (const uniformName in uniforms) {
       const uniform = uniforms[uniformName];
