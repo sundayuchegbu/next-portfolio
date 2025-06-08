@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I value strong client partnerships and believe in open, transparent communication throughout every project.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +39,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title:
+      "genuine enthusiasm for tech and a strong focus on building impactful digital solutions.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -74,8 +76,15 @@ export const projects = [
     id: 1,
     title: "Event Management App",
     des: "Explore an event management app integrated with stripe connect and queue system",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/strip.jpg", "/next.svg"],
+    img: "/ticket.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/strip.jpg",
+      "/next.svg",
+      "/c.svg",
+    ],
     link: "https://event-ticket-mu.vercel.app/",
   },
   {
@@ -83,7 +92,7 @@ export const projects = [
     title: "Avante consulting Solutions Web App",
     des: "Application show the vision, the mission, and the core value of the company and more",
     img: "/p1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/react.svg", "/tail.svg", "node.svg", "/mongodb.svg"],
     link: "https://avantecs.netlify.app/",
   },
   {
@@ -91,48 +100,46 @@ export const projects = [
     title: "Next Generation Bank App",
     des: "Explore a banking application designed",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://next-generation-banking.netlify.app/",
   },
   {
     id: 4,
-    title: "Discover & Share AI-Powered Prompts",
-    des: "My Anchor is an open-source AI prompting tool for modern world to discover, create and share craetive prompts",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://anchor-rho.vercel.app/",
+    title: "Inventory management App",
+    des: "Manage products and Sales",
+    img: "/inventory.png",
+    iconLists: [
+      "/re.svg",
+      "next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "ec2.svg",
+      "rds.svg",
+      "s3.svg",
+    ],
+    link: "https://master.dv89fstqjpcvt.amplifyapp.com/dashboard",
   },
+  // {
+  //   id: 5,
+  //   title: "Discover & Share AI-Powered Prompts",
+  //   des: "My Anchor is an open-source AI prompting tool for modern world to discover, create and share craetive prompts",
+  //   img: "/p4.svg",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  //   link: "https://anchor-rho.vercel.app/",
+  // },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Chizoba on the front-end development of our ticketing website, and I couldn't be more satisfied with the results. From the beginning, Sunday demonstrated a strong understanding of modern UI/UX principles and delivered a clean, responsive, and user-friendly interface that perfectly matched our requirements.\nHe was professional, communicative, and receptive to feedback throughout the entire process. Sunday delivered on time and made sure every detail was addressed. His work has significantly improved the user experience on our platform.I highly recommend Chizoba to anyone looking for a skilled and reliable front-end developer(full stack ). Looking forward to working with him again in the future!",
+    name: "Saidat Agoola",
+    title: "Sale Manager of Avante Consulting solutions",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Uche Nwabeeke",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Ugochi Uchegbu",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Brian Dickson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Lisa Brian",
     title: "Director of AlphaStream Technologies",
   },
 ];
@@ -146,21 +153,21 @@ export const companies = [
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "aws",
+    img: "/aws1.svg",
+    nameImg: "/webservice.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "NAMECHEAP",
+    img: "/n.svg",
+    nameImg: "/namecheap.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "/net.svg",
+    nameImg: "/netlify.svg",
   },
   {
     id: 5,
@@ -180,7 +187,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Ticketing App",
+    title: "Fullstack Developer",
     desc: "Designed and developed a ticketing application that is used in Uk, Nigeria and Morocco",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
@@ -194,8 +201,8 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: "Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Backend Developer",
+    desc: "Developed the backend and api for motickets.ng blog",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +212,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/sundayuchegbu",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/x.svg",
+    url: "https://x.com/uchegbu_chizoba",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/chizoba-uchegbu-1525a51bb/",
   },
 ];

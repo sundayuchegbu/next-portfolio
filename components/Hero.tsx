@@ -41,8 +41,28 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl text-blue-100"
             words="Transforming Concept into Seamless User Experiences"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Chizoba, a frontend developer based in Nigeria.
+          <p className="md:tracking-wider mb-4 text-sm md:text-[15px] lg:text-[15px] text-justify">
+            Hi, I’m Chizoba, a fullstack developer based in Nigeria, passionate
+            about building beautiful, high-performing web experiences.
+          </p>
+          <p className="md:tracking-wider mb-4 text-sm md:text-[15px] lg:text-[15px] text-justify">
+            With a strong eye for design and a love for clean, efficient code, I
+            specialize in turning ideas into interactive, user-friendly
+            applications that not only look great but also deliver seamless
+            functionality across devices. Whether it's crafting responsive
+            layouts, optimizing performance, or collaborating closely with
+            designers and backend teams, I take pride in bringing digital
+            visions to life with precision and creativity.
+          </p>
+          <p className="md:tracking-wider mb-4 text-sm md:text-[15px] lg:text-[15px] text-justify">
+            I'm especially drawn to projects that focus on intuitive user
+            experiences, accessibility, and elegant design systems. Beyond just
+            writing code, I enjoy solving problems, staying current with modern
+            frontend trends, and constantly pushing the boundaries of what the
+            web can do.
+          </p>
+          <p className="text-justify md:tracking-wider mb-4 text-sm md:text-[15px] lg:text-[15px]">
+            Let’s create something amazing together!
           </p>
           <a href="#about">
             <MaggicButton
