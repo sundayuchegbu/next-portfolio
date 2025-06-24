@@ -119,14 +119,14 @@ export const projects = [
     ],
     link: "https://master.dv89fstqjpcvt.amplifyapp.com/dashboard",
   },
-  // {
-  //   id: 5,
-  //   title: "Discover & Share AI-Powered Prompts",
-  //   des: "My Anchor is an open-source AI prompting tool for modern world to discover, create and share craetive prompts",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-  //   link: "https://anchor-rho.vercel.app/",
-  // },
+  {
+    id: 5,
+    title: "Ecommerce with payment functionalities",
+    des: "An ecommerce application with model after Amazon",
+    img: "/shopit.jpeg",
+    iconLists: ["/react.svg", "/strip.jpg", "node.svg", "mongodb.svg"],
+    link: "https://techwithchizzy-ecommerce.onrender.com/",
+  },
 ];
 
 export const testimonials = [
